@@ -1,59 +1,66 @@
-//index.js
-
+// pages/index/index.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    /*里面主要用于默认的数值*/
-   num:"",
+  
   },
-  //事件处理函数
 
-  onLoad: function () {
-    console.log("hello word !!");
-    this.getNow(); 
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+  
   },
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+  
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
   onPullDownRefresh: function () {
-    console.log("refresh execute1d!");
-    this.getNow();
-
-
-  },
-  getNow(){
-      wx.request({
-
-        url: 'https://test-miniprogram.com/api/news/list',
-        data: 
-            {
-          type: 'gj' //新闻类型，值为gn、gj、cj、yl、js、ty和other其中之一
-            },
-        header: 
-            {
-          'content-type': 'application/json' // 默认值,
-
-            },
-
-        success: res => {
-          //获得相应的信息进行查询操作
-          let result = res.data.result;
-          console.log(res.data);
-          console.log(res.data.code);
-          let lenth1 = result.length;
-          console.log(res.data.result.length);
-
-          //在wx.request获得的结果通过this.setData函数进行配置相应的参数操作。
-          this.setData({
-            //  num：res.data.code,
-            num: lenth1
-          }) 
-        },            
-      })
-     
-
-     
-
-
+  
   },
 
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
   
-  
+  },
 
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+  
+  }
 })
