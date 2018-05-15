@@ -1,2 +1,22 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+
+<view class='fl'>
+    <view wx:for="{{fl}}">
+        <view class='fl-item'>{{item}}</view>
+      
+    </view>
+</view>
+
+  <view class='banner' >
+         <view class='banner-background-images'>
+          <image  mode='scaleToFill'                  src='http://inews.gtimg.com/newsapp_bt/0/3203388080/641'></image>
+          </view>
+          <view class='dibu'>
+              <view class='banner-news'>清明假期长三角铁路客流堪比春运 上海局增开客车124列</view>
+              <view class='laiyuan'>
+                <view class='laiyuan-name'>新京报</view>
+                <view class='laiyuan-time'>2017-01-10</view>
+              
+              </view>             
+            </view>
+  </view>

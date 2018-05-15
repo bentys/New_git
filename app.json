@@ -5,9 +5,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#339EE0",
     "navigationBarTitleText": "快读·咨询",
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "#FFFFFF",
     "enablePullDownRefresh": true
   },
   "networkTimeout": {

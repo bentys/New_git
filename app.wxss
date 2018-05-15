@@ -8,3 +8,56 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.fl{
+  display: flex;
+  flex-direction: row;  
+    justify-content: space-around;
+  text-align: center;
+  background-color: #339EE0;
+  height: 48rpx;
+   
+}
+
+.fl-item{
+  color: white;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  font-size: 24rpx;
+  line-height: 36rpx;
+
+}
+.banner{
+  position: relative;
+  width: 100%;
+  height: 30%;
+
+ 
+}
+.banner-background-images{
+  position: relative;
+  display:flex;
+  justify-content: center;
+  margin: 10rpx;
+  
+  z-index: -1;
+
+}
+.banner-news{
+  font-size: 24rpx;
+  line-height: 36rpx;
+
+}
+.laiyuan{
+   position: absolute; 
+   font-size: 24rpx;
+  line-height: 36rpx;
+
+}
+.dibu{
+ position: absolute;
+ flex-direction: column;
+ bottom: 100rpx;
+ color: white;
+ padding-left: 60rpx;
+ padding-right: 60rpx;
+}
