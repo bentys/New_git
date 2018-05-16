@@ -1,1 +1,7 @@
-{}
+{
+ "pages": [
+  "pages/index/index",
+  "pages/two/xiangqing"
+]
+    
+  }

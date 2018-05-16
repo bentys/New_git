@@ -7,7 +7,7 @@
     </view>
 </view>
 
-  <view class='banner' >
+  <view class='banner' bindtap='godetails'>
          <view class='banner-background-images'>
           <image  mode='scaleToFill'                  src='http://inews.gtimg.com/newsapp_bt/0/3203388080/641'></image>
           </view>

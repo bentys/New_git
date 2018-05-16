@@ -9,11 +9,43 @@ Page({
   },
 
   /**
+   * 
+   * 提交一个公用的函数用于获取详情
+   */
+  getDetails(callback) {
+    wx.request({
+      url: 'https://test-miniprogram.com/api/news/detail',
+      data: {
+        id: '1523074607642',
+
+      },
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: (res) => {
+        console.log(res.data)
+      }
+
+    })
+
+
+  },
+  godetails:function gochenge(){
+
+
+  },
+
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    this.getDetails();
+    
   
   },
+ 
+  
 
   /**
    * 生命周期函数--监听页面初次渲染完成

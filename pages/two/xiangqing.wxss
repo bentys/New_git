@@ -1,1 +1,20 @@
 /* pages/two/xiangqing.wxss */
+.title{
+   padding-left: 50rpx;
+}
+.title-01{
+display: flex;
+ padding-left: 20rpx;
+
+}
+.title-01-src{
+  padding-left: 20rpx;
+}
+.title-01-date{
+
+  padding-left: 60rpx;
+}
+.title-01-read{
+  position: absolute;
+  left: 540rpx
+}

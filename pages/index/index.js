@@ -48,9 +48,10 @@ Page({
       }
 
     })
-
+    
 
   },
+  
 
 
   /**
@@ -58,6 +59,7 @@ Page({
    */
   onLoad: function (options) {
     this.getNOWList()
+    
   },
 
   /**
@@ -107,5 +109,14 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+
+  /**
+* 页面跳转
+*/
+  godetails: function () {
+    wx.navigateTo({
+      url: '/pages/two/xiangqing'
+    })
+  },
 })
