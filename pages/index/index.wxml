@@ -19,4 +19,25 @@
               
               </view>             
             </view>
+
   </view>
+
+
+
+<view class='liebiaoshuzu' wx:for="{{[1,2,3,4,5,6,7]}}">
+<view class='kuai'>
+<view  class='kuai01'>
+  <view >姐姐姐姐姐夫积分附件1111111133就</view>
+  <view class='luokuan'>
+    <view class='luokan01'>新华社</view>
+    <view class='luokan02'>01-20</view>
+  </view>
+
+  </view>
+  <image class='images1'
+  src='http://inews.gtimg.com/newsapp_bt/0/3203388080/641'></image>
+
+  </view>
+
+  </view>
+  

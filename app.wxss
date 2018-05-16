@@ -29,7 +29,7 @@
 .banner{
   position: relative;
   width: 100%;
-  height: 30%;
+  height: 20%;
 
  
 }
@@ -60,4 +60,50 @@
  color: white;
  padding-left: 60rpx;
  padding-right: 60rpx;
+}
+
+.xiaokuai{
+  height: 220rpx;
+  width: 0rpx;
+  
+  display:flex;
+  background-color: #339EE0;
+
+}
+.kill{
+ 
+   background-color:wheat;
+}
+.luokuan{
+  font-size: 20rpx;
+  display: flex;
+
+  
+
+}
+.kuai{
+
+display: flex;
+  width: 746rpx;
+  height: 240rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+
+
+}
+.kuai01{
+  width: 580rpx;
+
+
+}
+.luokan01{
+  padding-left: 20rpx;
+}
+.luokan02{
+  padding-left: 20rpx;
+}
+
+.images1{
+  width: 120rpx;
+  height: 120rpx;
 }
