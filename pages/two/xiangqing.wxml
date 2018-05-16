@@ -4,7 +4,7 @@
 <view class='title-01'>
     <view class='title-01-src'>安徽日报</view>
     <view class='title-01-date'>04-05</view>
-    <view class='title-01-read'>阅读 2000</view>
+    <view class='title-01-read'>{{readCount}}</view>
 </view>
 
 <view >

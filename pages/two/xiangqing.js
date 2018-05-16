@@ -5,6 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
+    title:'',
+    readCount:"",
+    date:'',
+    source:'',
+    text:[]
   
   },
 
@@ -23,7 +28,15 @@ Page({
         'content-type': 'application/json' // 默认值
       },
       success: (res) => {
-        console.log(res.data)
+      
+        let result_da= res.data.result
+
+        console.log(result_da);
+
+        this.setData({
+          readCount: ' 阅读 ' + result_da.readCount,
+
+        })
       }
 
     })
