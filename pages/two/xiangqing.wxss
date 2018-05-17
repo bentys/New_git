@@ -18,3 +18,7 @@ display: flex;
   position: absolute;
   left: 540rpx
 }
+.line{
+  width: 10rpx;
+  background-color: magenta;
+}

@@ -1,17 +1,18 @@
 <!--pages/two/xiangqing.wxml-->
-<text>pages/two/xiangqing.wxml</text>
-<view class='title'>015151515</view>
+
+<view class='line'></view>
+<view class='title'>{{title}}</view>
 <view class='title-01'>
-    <view class='title-01-src'>安徽日报</view>
-    <view class='title-01-date'>04-05</view>
+    <view class='title-01-src'>{{source}}</view>
+    <view class='title-01-date'>{{date}}</view>
     <view class='title-01-read'>{{readCount}}</view>
 </view>
 
 <view >
-  <view class='01'>1</view>
-   <view class='02'>2</view>
-    <view class='03'>3</view>
-     <view class='04'>4</view>
-      <view class='05'>5</view>
+{{text}}+fkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+kk
+kkk
+ff3113331
+ 
 </view>
 

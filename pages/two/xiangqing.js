@@ -30,14 +30,24 @@ Page({
       success: (res) => {
       
         let result_da= res.data.result
+        let source = result_da.source
 
         console.log(result_da);
 
         this.setData({
           readCount: ' 阅读 ' + result_da.readCount,
+          title: result_da.title,
+          date: new Date(result_da.date).getHours() + ":" + new Date    (result_da.date).getMinutes(),
+          source: "默认",
+          text: result_da.content[0].text
 
+          
         })
+        //新闻来源默认值
+         
       }
+
+      
 
     })
 
